@@ -6,6 +6,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="navbar navbar-inverse">
+    <ul class="nav navbar-nav pull-right">
+      <li><%= link_to 'Locale', 'http://www.localeapp.com/projects/5860' %></li>
+      <li><%= link_to 'Github', 'https://github.com/tigrish/localeapp-heroku' %></li>
+    </ul>
+  </div>
   <div class="container">
     <%= yield %>
   </div>
