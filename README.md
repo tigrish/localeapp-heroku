@@ -10,3 +10,4 @@ A sample application live reloading translations from Locale.
 Set the correct Heroku env variables :
 
    heroku config:add LOCALEAPP_API_KEY=xxxxxxxxxxx
+   heroku config:add LOCALEAPP_POLL_INTERVAL=0
