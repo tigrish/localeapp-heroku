@@ -1,9 +1,7 @@
 require 'localeapp/rails'
 
 Localeapp.configure do |config|
-  config.api_key       = ENV['LOCALEAPP_API_KEY']
-  config.poll_interval = ENV['LOCALEAPP_POLL_INTERVAL']
-
+  config.api_key = ENV['LOCALEAPP_API_KEY']
   config.polling_environments   << :production
   config.reloading_environments << :production
 
